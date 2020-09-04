@@ -1,0 +1,346 @@
+/* Geral */
+.divisor {
+    height: 15px;
+    width: 1px;
+    background: var(--white);
+}
+
+.free-mounth {
+    display: block;
+    background: var(--promotion);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    width: 98px;
+
+    color: var(--white);
+
+    padding: 8px 8px;
+    font-size: 14px;
+
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.button {
+    display: block;
+
+    padding: 17px 48px;
+
+    max-width: 220px;
+    text-align: center;
+
+    background: var(--button);
+
+    border-radius: 40px;
+    color: var(--white);
+
+    letter-spacing: 1px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1340px;
+
+    margin: 0 auto;
+
+    padding: 22px 100px;
+
+    align-items: center;
+}
+
+header img {
+    width: 130px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: var(--white);
+
+    font-weight: bold;
+    font-size: 16px;
+
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: var(--black);
+}
+
+nav ul li + li {
+    margin-left: 40px;
+}
+
+/* Navigation -> Login Item */
+nav ul li.login-item a {
+    display: flex;
+    
+    align-items: center;
+}
+
+nav ul li.login-item a img {
+    width: 40px;
+    border-radius: 50%;
+    
+    margin-right: 16px;
+}
+
+/* Section Initial Mês Premium */
+section.premium-mounth {
+    padding: 0 105px;
+    
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+    color: var(--black);
+}
+
+section.premium-mounth h1 {
+    color: var(--white);
+
+    font-size: 80px;
+    padding: 0;
+
+    margin-top: 30px;
+}
+
+section.premium-mounth h2 {
+    color: var(--white);
+
+    margin: 45px 0;
+
+    font-size: 30px;
+}
+
+section.premium-mounth div.footer {
+    width: 100%;
+    max-width: 630px;
+
+    margin-top: 45px;
+
+    font-size: 12px;
+    font-family: arial;
+    font-weight: 300;
+}
+
+section.premium-mounth div.footer p {
+    color: var(--white);
+}
+
+section.premium-mounth div.footer a {
+    text-decoration: underline;
+
+    color: var(--white);
+}
+
+/* Section Why Premium */
+section.why-premium {
+    background: var(--white);
+
+    margin-top: 30px;
+    padding: 75px 15px;
+}
+section.why-premium h1 {
+    text-align: center;
+
+    font-size: 48px;
+}
+
+section.why-premium div.cards {
+    display: flex;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    justify-content: space-around;
+}
+
+section.why-premium div.cards div.card {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    background-size: contain;
+}
+
+section.why-premium div.cards div.card h2 {
+    font-size: 21px;
+    
+    margin-bottom: 10px;
+}
+
+section.why-premium div.cards div.card p {
+    font-weight: lighter;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.why-premium div.cards div.card .background-download-musics {
+    background: url('https://campaigns.scdn.co/images/benefit_1.png');
+    background-size: contain;
+
+    height: 142px;
+    width: 142px;
+
+    margin: 40px auto;
+}
+
+section.why-premium div.cards div.card .background-no-adverts {
+    background: url("https://campaigns.scdn.co/images/Benefit_2.png");
+    background-size: contain;
+
+    height: 142px;
+    width: 142px;
+    margin: 40px auto;
+}
+
+section.why-premium div.cards div.card .background-listen-musics {
+    background: url("https://campaigns.scdn.co/images/benefit_3.png");
+    background-size: contain;
+
+    height: 142px;
+    width: 142px;
+    margin: 40px auto;
+}
+
+section.why-premium div.cards div.card .background-skip-musics {
+    background: url("https://campaigns.scdn.co/images/benefit_4.png");
+    background-size: contain;
+
+    height: 142px;
+    width: 142px;
+    margin: 40px auto;
+}
+
+/* Plans */
+
+section.plans-back {
+    background: var(--white);
+}
+
+section.plans {
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+section.plans .header-plans {
+    text-align: center;
+}
+
+section.plans .header-plans p {
+    font-size: 16px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.plans .header-plans h1 {
+    font-size: 40px;
+
+    margin-bottom: 40px;
+}
+
+/* Options Plan */
+section.plans .plans-card {
+    display: flex;
+
+    flex-wrap: wrap;
+    
+    margin-top: 65px;
+    padding-bottom: 65px;
+
+    justify-content: center;
+}
+
+section.plans .plans-card .plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section.plans .plans-card .plan ul {
+    list-style: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    margin-bottom: 100px;
+}
+
+section.plans .plans-card .plan ul.option-long {
+    margin-bottom: 7.5px;
+}
+
+section.plans .plans-card .plan ul li {
+    display: flex;
+    align-items: flex-start;
+}
+
+section.plans .plans-card .plan {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 270px;
+
+    padding: 16px;
+}
+
+section.plans .plans-card .plan .information {
+    padding: 20px 0;
+}
+
+section.plans .plans-card .plan .information p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.plans .plans-card .plan .information p + p {
+    margin-top: 7px;
+}
+
+section.plans .plans-card .plan .options {
+    border-top: 0.5px solid #d4d4d4;
+
+    padding: 32px 0;
+}
+
+section.plans .plans-card .plan .options ul li + li {
+    margin-top: 8px;
+}
+
+section.plans .plans-card .plan .options ul li svg {
+    margin-right: 10px;
+
+    flex-shrink: 0;
+}
+
+section.plans .plans-card .plan .button {
+    margin-bottom: 30px;
+}
+
+section.plans .plans-card .plan p.description-plan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    color: rgb(145, 148, 150);
+}
+
+section.plans .plans-card .plan + .plan {
+    margin-left: 15px;
+}

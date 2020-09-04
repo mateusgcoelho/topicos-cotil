@@ -1,0 +1,43 @@
+:root {
+    --blue-light: #509BF5;
+    --button: #1DB954;
+    --white: #FFF;
+    --black: #222326;
+    --promotion: #2E77D0;
+}
+
+@font-face {font-family: "Circular Spotify Tx T Black"; src: url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot"); src: url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff") format("woff"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.svg#Circular Spotify Tx T Black") format("svg"); }
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--blue-light);
+    color: var(--black);
+
+    height: 100vh;
+    width: 100%;
+
+    margin: 0 auto;
+
+    font: 16px 'Circular Spotify Tx T Black', serif;
+}
+
+body, input, button {
+    border: 0;
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+
+    color: var(--black);
+}
